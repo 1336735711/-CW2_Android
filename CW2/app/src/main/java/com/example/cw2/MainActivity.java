@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button btnMap = (Button) findViewById(R.id.btnMap);
-//        Button btnPhoto = (Button) findViewById(R.id.btnPhoto);
+        Button btnPhoto = (Button) findViewById(R.id.btnPhoto);
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        btnPhoto.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(MainActivity.this, MapsActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+        btnPhoto.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, PhotoActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
