@@ -40,7 +40,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap = googleMap;
 
-        // Add a marker in Sydney and move the camera
+        // Add a marker in coordinate and move the camera
         LatLng f_sss = new LatLng(22.501487962452135, 114.12799291314909);
         LatLng s1_hksah = new LatLng(22.509554014683452, 114.10786739750866);
         LatLng s2_syr = new LatLng(22.511119,114.111783);
@@ -56,18 +56,4 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
         mMap.moveCamera(CameraUpdateFactory.newLatLng(f_sss));
 
-
-
-//        mMap = ((SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map)).getMap();
-//        mMap.setMyLocationEnabled(true); // 右上角的定位功能；這行會出現紅色底線，不過仍可正常編譯執行
-//        mMap.getUiSettings().setZoomControlsEnabled(true);  // 右下角的放大縮小功能
-//        mMap.getUiSettings().setCompassEnabled(true);       // 左上角的指南針，要兩指旋轉才會出現
-//        mMap.getUiSettings().setMapToolbarEnabled(true);    // 右下角的導覽及開啟 Google Map功能
-//
-//        Log.d(TAG, "最高放大層級："+mMap.getMaxZoomLevel());
-//        Log.d(TAG, "最低放大層級："+mMap.getMinZoomLevel());
-//
-//        mMap.moveCamera(CameraUpdateFactory.newLatLng(ss));
-//        mMap.animateCamera(CameraUpdateFactory.zoomTo(16));     // 放大地圖到 16 倍大
-//    }
 }}

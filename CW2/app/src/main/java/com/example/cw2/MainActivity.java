@@ -14,8 +14,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Name Map button
         Button btnMap = (Button) findViewById(R.id.btnMap);
+
+        //Name Photo button
         Button btnPhoto = (Button) findViewById(R.id.btnPhoto);
+
+        //Map button function
         btnMap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -24,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Photo button function
         btnPhoto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
