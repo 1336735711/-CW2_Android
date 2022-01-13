@@ -42,9 +42,11 @@
     <ImageView
         android:id="@+id/photoView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="501dp"
+        android:layout_above="@+id/progressBar"
         android:layout_below="@+id/textFileName"
-        android:layout_marginTop="5dp" />
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp" />
 
     <ProgressBar
         android:id="@+id/progressBar"
@@ -66,7 +68,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/textShowUplpad"
+        android:id="@+id/btnShowUpload"
         android:layout_width="140dp"
         android:layout_height="60dp"
         android:layout_alignParentEnd="true"
