@@ -95,7 +95,7 @@ public class PhotoActivity extends AppCompatActivity {
         mBtnShowUpload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                toImagesActivity();
             }
         });
     }
@@ -167,5 +167,10 @@ public class PhotoActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "No file selected", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    private void toImagesActivity() {
+        Intent intent = new Intent(this, ShowPhotoActivity.class);
+        startActivity(intent);
     }
 }
