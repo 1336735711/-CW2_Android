@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "970331882421",
-    "project_id": "custom-oasis-337918",
-    "storage_bucket": "custom-oasis-337918.appspot.com"
+    "project_number": "581553319579",
+    "project_id": "ho-sheung-township-guide-app",
+    "storage_bucket": "ho-sheung-township-guide-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:970331882421:android:bc3fd7991bf3466f5b4ffc",
+        "mobilesdk_app_id": "1:581553319579:android:25c94295332a832b07203e",
         "android_client_info": {
-          "package_name": "com.android.application"
+          "package_name": "com.example.cw2"
         }
       },
       "oauth_client": [
         {
-          "client_id": "970331882421-beg8p3k9dc5ffh3u21rnn2b4bklp1ui8.apps.googleusercontent.com",
+          "client_id": "581553319579-og78jj6l7v93l6m03m6cdanl4rupnrll.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBODmGl-m9ziuAy2orLQV7yzxUhyTHfTac"
+          "current_key": "AIzaSyC0xqmwVsyAIItdBT97qVhbutqEXTHJFyY"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "970331882421-beg8p3k9dc5ffh3u21rnn2b4bklp1ui8.apps.googleusercontent.com",
+              "client_id": "581553319579-og78jj6l7v93l6m03m6cdanl4rupnrll.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
