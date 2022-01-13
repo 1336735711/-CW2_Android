@@ -98,9 +98,7 @@ public class PhotoActivity extends AppCompatActivity {
 
             }
         });
-
     }
-
 
 
     //btnChoosePhoto function (image)
@@ -119,7 +117,6 @@ public class PhotoActivity extends AppCompatActivity {
         if(requestCode == PICK_IMAGE_REQUEST && resultCode == RESULT_OK
                 && data != null && data.getData() != null) {
             mImageUri = data.getData();
-
             Picasso.get().load(mImageUri).into(mPhotoView);
         }
     }
