@@ -9,43 +9,43 @@
 
     <Button
         android:id="@+id/btnChoosePhoto"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
+        android:layout_width="157dp"
+        android:layout_height="61dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="10dp"
-        android:text="Choose file" />
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="12dp"
+        android:text="Choose file"
+        android:textSize="17dp"/>
 
-    <Button
-        android:id="@+id/btnTakePhoto"
-        android:layout_width="135dp"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="49dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="30dp"
-        android:text="Take file" />
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/ic_mic" />
 
     <EditText
         android:id="@+id/textFileName"
-        android:layout_width="275dp"
+        android:layout_width="296dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="-97dp"
-        android:layout_marginTop="66dp"
-        android:layout_marginEnd="68dp"
+        android:layout_marginStart="-159dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="93dp"
         android:layout_toEndOf="@+id/btnChoosePhoto"
-        android:hint="Enter file name" />
+        android:hint="Enter comment" />
 
     <ImageView
         android:id="@+id/photoView"
         android:layout_width="match_parent"
-        android:layout_height="501dp"
+        android:layout_height="478dp"
         android:layout_above="@+id/progressBar"
         android:layout_below="@+id/textFileName"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="26dp"
         android:layout_marginBottom="30dp" />
 
     <ProgressBar
@@ -54,7 +54,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="74dp" />
+        android:layout_marginBottom="74dp"/>
 
     <Button
         android:id="@+id/btnUpload"
@@ -65,7 +65,7 @@
         android:layout_marginStart="40dp"
         android:layout_marginBottom="5dp"
         android:text="Upload"
-        android:textSize="20sp" />
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/btnShowUpload"
@@ -77,7 +77,8 @@
         android:layout_marginBottom="5dp"
         android:gravity="center"
         android:text="Show Upload"
-        android:textSize="15sp" />
+        android:textSize="15sp"
+        />
 
 
 </RelativeLayout>

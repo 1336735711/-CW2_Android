@@ -36,7 +36,6 @@ public class PhotoActivity extends AppCompatActivity {
     private static final int PICK_IMAGE_REQUEST = 1;
 
     private Button mBtnChoosePhoto;
-    private Button mBtnTakePhoto;
     private EditText mTextFileName;
     private ImageView mPhotoView;
     private ProgressBar mProgressBar;
@@ -57,7 +56,6 @@ public class PhotoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_photo);
 
         mBtnChoosePhoto = findViewById(R.id.btnChoosePhoto);
-        mBtnTakePhoto = findViewById(R.id.btnTakePhoto);
         mTextFileName = findViewById(R.id.textFileName);
         mPhotoView = findViewById(R.id.photoView);
         mProgressBar = findViewById(R.id.progressBar);
@@ -82,13 +80,6 @@ public class PhotoActivity extends AppCompatActivity {
                 } else {
                     uploadFile();
                 }
-            }
-        });
-
-        mBtnTakePhoto.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
             }
         });
 
@@ -173,4 +164,6 @@ public class PhotoActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ShowPhotoActivity.class);
         startActivity(intent);
     }
+
+
 }
