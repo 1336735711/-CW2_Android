@@ -29,7 +29,7 @@ public class Upload {
         return mImageUrl;
     }
 
-    public void  setImageUrl(String imageUrl) {
+    public void setImageUrl(String imageUrl) {
         mImageUrl = imageUrl;
     }
 }

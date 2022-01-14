@@ -51,7 +51,6 @@ public class PhotoActivity extends AppCompatActivity {
 
     private StorageTask mUploadTask;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,7 +92,6 @@ public class PhotoActivity extends AppCompatActivity {
         });
     }
 
-
     //btnChoosePhoto function (image)
     private void toFileChooser() {
         Intent intent = new Intent();
@@ -121,7 +119,6 @@ public class PhotoActivity extends AppCompatActivity {
                 }
                 break;
         }
-
     }
 
     private String getFileExtension(Uri uri) {
@@ -184,7 +181,7 @@ public class PhotoActivity extends AppCompatActivity {
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
         intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
 
-        if (intent.resolveActivity(getPackageManager())!= null) {
+        if (intent.resolveActivity(getPackageManager()) != null) {
             startActivityForResult(intent, 10);
         } else {
             Toast.makeText(this, "Your Device Don't Support Speech Inpit", Toast.LENGTH_SHORT).show();
