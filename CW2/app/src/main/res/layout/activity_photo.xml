@@ -39,7 +39,7 @@
         android:layout_marginTop="79dp"
         android:layout_marginEnd="93dp"
         android:layout_toEndOf="@+id/btnChoosePhoto"
-        android:hint="Enter comment" />
+        android:hint="Type or speak text" />
 
     <ImageView
         android:id="@+id/photoView"
