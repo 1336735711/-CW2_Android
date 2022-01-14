@@ -11,4 +11,3 @@
     tools:context=".MapsActivity"
     map:cameraZoom="14"/>
 
-<!--    map:cameraZoom="14"-->
