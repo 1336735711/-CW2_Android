@@ -19,13 +19,15 @@
         android:textSize="17dp"/>
 
     <ImageView
+        android:id="@+id/btnSpeak"
         android:layout_width="48dp"
         android:layout_height="49dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="25dp"
-        android:src="@drawable/ic_mic" />
+        android:src="@drawable/ic_mic"
+        android:onClick="getSpeechInput"/>
 
     <EditText
         android:id="@+id/textFileName"
